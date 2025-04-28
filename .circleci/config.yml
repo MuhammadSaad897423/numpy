@@ -12,7 +12,7 @@ _defaults: &defaults
     - image: cimg/python:3.11.10
   working_directory: ~/repo
 
-
+  # CircleCI maintains a library of pre-built images
 jobs:
   build:
     <<: *defaults
